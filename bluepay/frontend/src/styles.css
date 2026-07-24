@@ -1,0 +1,60 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: #0B0F16;
+  color: #EDEFF3;
+}
+a { color: inherit; }
+input, button {
+  font-family: inherit;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+  background: #14181F;
+  border: 1px solid #2A313D;
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: #EDEFF3;
+  font-size: 14px;
+  width: 100%;
+}
+input:focus { outline: 2px solid #35D0BA; }
+button { cursor: pointer; }
+.container { max-width: 880px; margin: 0 auto; padding: 24px 20px 60px; }
+.card {
+  background: #1C222C;
+  border: 1px solid #262D39;
+  border-radius: 14px;
+  padding: 20px;
+}
+.btn-primary {
+  background: #35D0BA;
+  color: #0B1F1B;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #2A313D;
+  color: #C6CBD4;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 14px;
+}
+.btn-amber {
+  background: #E8A33D;
+  color: #2B1B03;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.error-text { color: #E2635F; font-size: 13px; margin-top: 8px; }
+.muted { color: #8A93A3; font-size: 13px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; padding: 8px 10px; color: #8A93A3; border-bottom: 1px solid #262D39; }
+td { padding: 8px 10px; border-bottom: 1px solid #1F252F; }
